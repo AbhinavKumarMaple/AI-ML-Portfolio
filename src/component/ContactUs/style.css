@@ -1,0 +1,120 @@
+/* main input field */
+.PhoneInput  {
+    border-radius: 0px;
+    border-color: #9E9E9E;
+    height: 111px;
+    outline: none;
+  }
+
+
+  .PhoneInputInput {
+    height: 110px;
+    background-color: #2d2d2d;
+    border-width: 0px;
+    outline: none;
+    font-size: 32px;
+  }
+  
+  @media (max-width: 480px) {
+    .PhoneInputInput {
+      font-size: 16px !important;
+      /* background-color: #ff0000; */
+    }
+
+    .PhoneInputCountryIcon {
+        width: 40px !important;
+        margin-right:0px !important;
+        
+       
+    }
+    .PhoneInputCountry{
+        width: 80px !important;
+        padding-left: 5px !important;
+      
+      }
+      .PhoneInput  {
+
+        height: 60px !important;
+     
+      }
+      .PhoneInputInput {
+        height: 58px !important;
+
+      }
+  }
+
+  .PhoneInputInput {
+	/* The phone number input stretches to fill all empty space */
+	flex: 1;
+	/* The phone number input should shrink
+	   to make room for the extension input */
+	
+    border-color: 0px;
+}
+
+  
+  .PhoneInputCountryIcon {
+	width: 50px;
+    height: 30%;
+    overflow: hidden;
+    background-color: #2d2d2d;
+    border-width: 0px;
+    border-color: #ffffff;
+    border-radius: 10px;
+    margin-right:10px ;
+    
+   
+}
+
+
+
+
+.PhoneInputCountryIconImg {
+	/* Fixes weird vertical space above the flag icon. */
+	/* https://gitlab.com/catamphetamine/react-phone-number-input/-/issues/7#note_348586559 */
+	display: block;
+	/* 3rd party <SVG/> flag icons won't stretch if they have `width` and `height`.
+	   Also, if an <SVG/> icon's aspect ratio was different, it wouldn't fit too. */
+	width: 100%;
+	height: 100%;
+    background-color: #2d2d2d;
+    border-width: 0px;
+
+    
+}
+
+
+.PhoneInputCountryIcon--border {
+	/* Removed `background-color` because when an `<img/>` was still loading
+	   it would show a dark gray rectangle. */
+	/* For some reason the `<img/>` is not stretched to 100% width and height
+	   and sometime there can be seen white pixels of the background at top and bottom. */
+	
+	/* Border is added via `box-shadow` because `border` interferes with `width`/`height`. */
+	/* For some reason the `<img/>` is not stretched to 100% width and height
+	   and sometime there can be seen white pixels of the background at top and bottom,
+	   so an additional "inset" border is added. */
+       box-shadow: 0 0 0 var(--PhoneInputCountryFlag-borderColor),
+       inset 0 0 0 var(--PhoneInputCountryFlag-borderColor);
+
+
+}
+
+
+
+
+
+
+
+
+ /* dropdown meny */
+  .PhoneInputCountrySelect {
+    background-color: #2d2d2d;
+    
+  }
+  
+  .PhoneInputCountry{
+    width: 130px;
+    padding-left: 40px;
+  
+  }

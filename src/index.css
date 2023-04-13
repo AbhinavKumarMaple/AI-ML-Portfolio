@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.mbtr{
+    @apply bg-gradient-to-tr from-bg from-30% to-gray 
+}
+.mbbr{
+    @apply bg-gradient-to-br from-transparent from-50% to-gray to-100%
+}
+.bgtrviaGray{
+        @apply sm:bg-gradient-to-tr sm:from-grayDark   sm:via-bg sm:to-grayDark
+}
+.bgtrvia{
+    @apply sm:bg-gradient-to-tl sm:from-gray   sm:via-bg sm:to-gray
+}
+
+.bgTl{
+    @apply sm:bg-gradient-to-tl sm:from-bg sm:from-50% sm:to-gray
+}
+.bgbr{
+    @apply sm:bg-gradient-to-br sm:from-bg sm:from-50% sm:to-gray
+}
+.MgrayBR{
+    @apply bg-gradient-to-br from-gray26 from-60% to-gray36
+}
+
+.MGrayBL{
+    @apply bg-gradient-to-bl from-gray26 from-60% to-gray36
+}
+
+.grayBgBl{
+    @apply bg-gradient-to-bl from-gray26 from-70% to-gray36
+}
+
+.titleWithUl{
+    @apply text-[14px] uppercase font-futuraBkBt sm:text-[26px] sm:pb-8
+}
+
+.titlewithUl24{
+    @apply text-[14px] sm:text-[24px] font-futuraBkBt 
+}
+
+.maintitlebkbt{
+    @apply text-[14px] uppercase font-futuraBkBt sm:text-[26px] sm:pb-8
+
+}
+.ul{
+   @apply sm:border-b-4 border-yellow pb-1 border-b-2
+}
+
+
+.titleWithYellow{
+    @apply font-futuraHvBt text-[20px] sm:text-[50px] 
+}
+.titlehvbt{
+    @apply font-futuraHvBt sm:font-futuraMdBt text-[20px] sm:text-[40px]
+}
+
+.paraXl{
+    @apply hidden sm:block font-futuraLt text-[24px] pt-8
+}
+
+.Dpara{
+    @apply font-futuraLt sm:text-[24px] text-[14px] leading-relaxed
+}
+
+.mPara14{
+    @apply sm:hidden text-[14] font-futuraLt leading-relaxed
+}
+
+.fmd16{
+  @apply  uppercase text-left font-futuraMdBt lg:text-[20px] xl:text-[24px] text-[16px]
+}
+
+.ltbt16{
+   @apply font-futuraLt text-left sm:text-[20px] text-[12px]
+}
+
+.forumlable{
+    @apply block  font-futuraLt text-[18px]  sm:text-[34px] py-4 sm:py-8
+}
+
+.foruminput{
+    @apply block bg-gray26 text-white w-full h-14 sm:h-28 sm:text-3xl sm:px-14 px-4 py-2 border border-formBorder  shadow-sm focus:ring-formBorder focus:border-formBorder 
+}
+
+.forumButton{
+    @apply bg-yellow text-bg text-[18px] font-futuraMdBt px-12 sm:mt-16 sm:text-[26px] sm:px-20 py-4 mt-8    shadow-sm hover:bg-yellow focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow
+}
+
+.footFaq{
+    @apply text-[20px] sm:text-[24px] font-futuraLt uppercase
+}
+.Brand{
+   @apply object-contain
+}
+
+
+@screen sm{
+    .Homepage{
+      
+        background: radial-gradient( circle at 13% 10%, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0) 30%)
+    
+}
+    .gradient_leftTop{
+      
+            background: radial-gradient( circle at 0% 0%, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0) 30%)
+        
+    }
+    .gradient_rightBot{
+    
+            background: radial-gradient( circle at 100% 100%, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0) 30%)
+        
+    }
+    .gradient_rightTop{
+      
+            background: radial-gradient( circle at 100% 0%, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0) 30%)
+    
+}
+.gradient_leftBot{
+
+        background: radial-gradient( circle at 0% 100%, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0) 30%)
+    
+}
+.gradient_leftBotNew{
+
+    background: radial-gradient( circle at 0% 85%, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0) 30%)
+
+}
+.gradient_rightTopE{
+      
+    background: radial-gradient( circle at 100% 0%, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0) 20%)
+
+}
+
+
+}
+@screen xs{
+    
+
+    .mHomepage{
+      
+        background: radial-gradient( circle at 13% 10%, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0) 30%)
+    
+}
+    .mgradient_leftTop{
+      
+            background: radial-gradient( circle at 0% 0%, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0) 30%)
+        
+    }
+    .mgradient_rightBot{
+    
+            background: radial-gradient( circle at 100% 100%, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0) 30%)
+        
+    }
+    .mgradient_rightBotSmall{
+    
+        background: radial-gradient( circle at 100% 100%, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0) 30%)
+    
+}
+.mgradient_rightTopSmall{
+      
+    background: radial-gradient( circle at 100% 0%, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0) 40%)
+
+}
+    .mgradient_rightTop{
+      
+            background: radial-gradient( circle at 100% 0%, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0) 100%)
+    
+}
+
+.mgradient_leftBot{
+
+        background: radial-gradient( circle at 0% 100%, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0) 30%)
+    
+}
+.mgradient_leftBotNew{
+
+    background: radial-gradient( circle at 0% 85%, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0) 30%)
+
+}
+.mgradient_rightTopE{
+      
+    background: radial-gradient( circle at 100% 0%, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0) 20%)
+
+}
+
+}
+
+
+
