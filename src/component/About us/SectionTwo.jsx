@@ -1,6 +1,6 @@
 import React from "react";
 import Para from "./SectionOne/Para";
-import Img from "../../assets/AboutUs/Vector.png";
+import Img from "../../assets/AboutUs/vector.png";
 
 export default function SectionTwo() {
   return (
