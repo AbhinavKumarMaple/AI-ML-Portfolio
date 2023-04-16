@@ -85,7 +85,7 @@
 }
 
 .foruminput{
-    @apply block bg-gray26 text-white w-full h-14 sm:h-28 sm:text-3xl sm:px-14 px-4 py-2 border border-formBorder  shadow-sm focus:ring-formBorder focus:border-formBorder 
+    @apply block bg-footGray text-white w-full h-14 sm:h-28 sm:text-3xl sm:px-14 px-4 py-2 border border-formBorder  shadow-sm 
 }
 
 .forumButton{

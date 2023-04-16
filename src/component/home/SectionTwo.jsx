@@ -17,7 +17,7 @@ export default function SectionTwo() {
             </p>
             <p className="titleWithYellow sm:max-w-4xl">
               AI, ML, mobile,{" "}
-              <span className="text-yellow ">web, Degital UI</span> design and
+              <span className="text-yellow ">web, Digital UI</span> design and
               UX services
             </p>
           </div>

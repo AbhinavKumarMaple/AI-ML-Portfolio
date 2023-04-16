@@ -16,7 +16,6 @@ export default function SectionOne() {
     "Lorem ipsum dolor sit amet, ",
     "Lorem ipsum dolor sit amet, ",
     "Lorem ipsum dolor sit amet, ",
-    "Lorem ipsum dolor sit amet, ",
   ];
 
   const title =

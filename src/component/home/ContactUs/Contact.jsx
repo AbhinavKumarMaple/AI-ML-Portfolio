@@ -41,7 +41,7 @@ export default function Contact() {
               id="firstName"
               name="firstName"
               onChange={handleInputChange}
-              className="foruminput"
+              className="foruminput  md:bg-gradient-to-tl md:from-footGray md:via-footGray  md:to-gray26 "
             />
           </div>
           <div className="mb-4 flex-auto ">
@@ -76,7 +76,7 @@ export default function Contact() {
             <label htmlFor="number" className="forumlable">
               Phone
             </label>
-            <div className="bg-gray px-4 border-[1px] border-formBorder">
+            <div className="bg-footGray px-4 border-[1px] border-formBorder">
               <PhoneInput
                 placeholder="987 654 3210"
                 value={value}
@@ -98,7 +98,7 @@ export default function Contact() {
             name="message"
             rows="4"
             onChange={handleInputChange}
-            className="block bg-gray26 text-white w-full h-32   sm:h-60 sm:text-[26px] sm:px-14 px-4 py-2 border border-formBorder  shadow-sm focus:ring-formBorder focus:border-formBorder"
+            className="block bg-gradient-to-r from-footGray via-footGray  to-gray text-white w-full h-32   sm:h-60 sm:text-[26px] sm:px-14 px-4 py-2 border border-formBorder  shadow-sm "
           ></textarea>
         </div>
         <button type="submit" className="forumButton" onClick={handleSubmit}>

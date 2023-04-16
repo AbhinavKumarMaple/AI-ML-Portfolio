@@ -8,7 +8,7 @@ import SocialLogo from "./Footer/SocialLogo";
 import { TbPhoneCall, TbMail, TbMapPin } from "react-icons/tb";
 
 export default function Footer() {
-  const useFullLinks = {
+  const useFulLinks = {
     title: "Useful Links",
     links: [
       { url: "", text: "Home" },
@@ -72,7 +72,7 @@ export default function Footer() {
             <SocialLogo />
           </div>
           <div className="sm:hidden border-b-2 border-grayDark pb-4">
-            <Faq title="usefull Links">
+            <Faq title="useful Links">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </Faq>
@@ -96,7 +96,7 @@ export default function Footer() {
         {/* */}
       </div>
       <div className="bg-footGray">
-        <div className=" hidden gradient_rightTop sm:block text-white mx-auto px-16 pt-16  ">
+        <div className=" hidden gradient_rightTop sm:block text-white mx-auto px-24 pt-16  ">
           <div className=" ">
             <div className="pt-16   ">
               <div className="grid mb-8 lg:grid-cols-7 ">
@@ -124,11 +124,11 @@ export default function Footer() {
                 <div className="grid gap-5 row-gap-8 lg:col-span-4 md:grid-cols-3 ">
                   <div className="h-full">
                     <p className="titleWithUl">
-                      <span className="ul">usefull</span> link
+                      <span className="ul">useful</span> link
                     </p>
 
                     <ul className="flex flex-col gap-8">
-                      {useFullLinks.links.map((link, index) => (
+                      {useFulLinks.links.map((link, index) => (
                         <li key={index} className=" text-[24px] font-futuraLt">
                           <a
                             href={link.url}

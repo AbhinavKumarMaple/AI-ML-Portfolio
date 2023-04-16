@@ -15,8 +15,8 @@ export default function SectionThree() {
               <h1 className=" maintitlebkbt ">
                 <span className="ul">our</span> works
               </h1>
-              <div className="space-y-8 w-9/12 sm:w-full">
-                <h1 className="titleWithYellow w-11/12 sm:w-full">
+              <div className="space-y-8 w-10/12 sm:w-full">
+                <h1 className="titleWithYellow w-full sm:w-full">
                   Case Studies,{" "}
                   <span className="text-yellow ">
                     a selection of successful
@@ -24,7 +24,7 @@ export default function SectionThree() {
                   projects.
                 </h1>
                 <div className="space-y-4">
-                  <p className="Dpara w-10/12 sm:w-full">
+                  <p className="Dpara w-full sm:w-full">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aenean elementum interdum sapien, ac dictum nulla dictum
                     lacinia.

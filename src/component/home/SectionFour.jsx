@@ -9,7 +9,7 @@ import Team5 from "../../assets/AboutUs/5.png";
 
 export default function SectionFour() {
   return (
-    <div className=" sm:bg-footGray bg-bg">
+    <div className=" sm:bg-footGray MGrayBL">
       <div className="gradient_leftBot  mgradient_rightBotSmall">
         <div className="text-white gradient_rightTop flex flex-col justify-center text-center  space-y-8 p-8 sm:p-20 sm:px-28">
           <h1 className="maintitlebkbt">

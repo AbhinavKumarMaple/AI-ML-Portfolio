@@ -17,10 +17,10 @@ export default function SectionOne() {
   return (
     <div className="bg-bg">
       <div className="Homepage ">
-        <div className="sm:p-12 p-8 gradient_rightBot  sm:pt-36 bg-gradient-to-tr from-bg from-25%  to-grayDark ">
+        <div className="sm:p-24 p-8 gradient_rightBot sm:pt-36 bg-gradient-to-tr from-bg from-25%  to-grayDark ">
           <div className=" pt-8 sm:pt-0">
             <div className="flex flex-row  justify-center space-x-8  ">
-              <div className="flex-row text-white  mt-14 space-y-10  sm:w-6/12">
+              <div className="text-white  mt-14 space-y-10  sm:flex-1">
                 <img src={Creative} className="sm:hidden m-auto" />
                 <div>
                   <p className="text-[24px] font-futuraMdBt sm:text-[50px]  sm:leading-snug	">
@@ -63,7 +63,7 @@ export default function SectionOne() {
               </div>
               <img
                 src={Creative}
-                className=" hidden sm:block sm:object-contain  sm:h-auto  sm:w-5/12 justify-center lg:h-auto"
+                className=" hidden sm:block sm:object-contain  sm:h-auto  sm:flex-1 justify-center lg:h-auto"
               />
             </div>
             <div className="hidden sm:block sm:pb-8 my-auto ">

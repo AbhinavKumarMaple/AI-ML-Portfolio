@@ -11,7 +11,7 @@ export default function SectionOne() {
     <div className="bg-bg  ">
       <div className="Homepage">
         <div className=" gradient_rightBot mgradient_rightTop">
-          <div className="text-white flex flex-col  text-left gap-8  p-8  sm:p-28 sm:pt-48 pt-24  ">
+          <div className="text-white flex flex-col  text-left gap-8  p-8  sm:p-24 sm:pt-48 pt-24  ">
             <h1 className="titleWithUl">
               <span className="ul">about</span> us
             </h1>
@@ -28,16 +28,12 @@ export default function SectionOne() {
                 post="Co - Founder"
               />
               <TeamProfile src={Team3} title="Inès Martinez" post="CEO" />
-              <TeamProfile
-                src={Team4}
-                title="Morgane Dubois"
-                post="Director"
-                size="{text-[5px]}"
-              />
+              <TeamProfile src={Team4} title="Morgane Dubois" post="Director" />
               <TeamProfile
                 src={Team5}
                 title="Matthew Richardson"
                 post="Assistant Director"
+                size="xl:text-[20px]"
               />
             </div>
             <p className="mPara14 pt-6">

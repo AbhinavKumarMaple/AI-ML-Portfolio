@@ -29,15 +29,15 @@ export default function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="bg-gray-800 sm:bg-opacity-0 absolute w-full sm:px-20 sm:py-8"
+      className="bg-gray-800 sm:bg-opacity-0 absolute w-full sm:px-24 sm:pt-10"
     >
       {({ open, close }) => (
         <>
           <div
-            className="sm:px-6
+            className="
           "
           >
-            <div className="relative pt-8 flex h-16 items-center justify-center bg-grayDark sm:bg-opacity-0">
+            <div className="relative flex h-16 items-center justify-center bg-grayDark sm:bg-opacity-0">
               {/* Mobile menu button*/}
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 px-8 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -53,7 +53,7 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center ">
                   <div className="hidden sm:block">
                     <img
-                      src={mobLogo}
+                      src={deskLogo}
                       className="sm:w-full sm:h-4 lg:w-full lg:h-6"
                     />
                   </div>
@@ -99,7 +99,7 @@ export default function Navbar() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="h-screen " onClick={close}>
-              <div className="space-y-1 px-2pb-3 pt-2 text-white bg-gray">
+              <div className="space-y-1 px-2 pb-3 pt-2 text-white bg-gray">
                 {/* moble Nav */}
                 {navigation.map((item) => (
                   <Disclosure.Button
