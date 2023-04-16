@@ -13,7 +13,7 @@ export default function StudyCarWeb({ title, para, list, para2, img }) {
         </ul>
         <p className="Dpara">{para2}</p>
       </div>
-      <div className=" w-8/12  overflow-hidden ml-auto">
+      <div className=" w-9/12  overflow-hidden ml-auto">
         <img src={img} className="rounded-3xl mx-auto" />
       </div>
     </div>
