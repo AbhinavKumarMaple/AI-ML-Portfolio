@@ -57,7 +57,7 @@ export default function Navbar() {
                       className="sm:w-full sm:h-4 lg:w-full lg:h-6"
                     />
                   </div>
-                  <div className=" ">
+                  <div className="sm:hidden ">
                     <NavLink to="/">
                       <img src={mobLogo} />
                     </NavLink>
