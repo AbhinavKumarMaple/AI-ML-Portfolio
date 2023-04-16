@@ -49,8 +49,8 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1  items-center  justify-center sm:justify-between sm:items-center ">
-                <div className="flex flex-shrink-0 items-center ">
+              <div className="flex flex-1 items-center justify-center sm:justify-between sm:items-center ">
+                <div className="flex flex-shrink-0 items-center">
                   <div className="hidden sm:block">
                     <img
                       src={deskLogo}
