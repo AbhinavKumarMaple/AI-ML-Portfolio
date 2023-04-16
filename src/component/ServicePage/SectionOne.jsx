@@ -8,7 +8,6 @@ export default function SectionOne() {
     "Lorem ipsum dolor sit amet, ",
     "Lorem ipsum dolor sit amet, ",
     "Lorem ipsum dolor sit amet, ",
-    "Lorem ipsum dolor sit amet, ",
   ];
 
   const Items = [
@@ -24,7 +23,6 @@ export default function SectionOne() {
    pariatur ut laborum aliquip culpa laboris. Do id consequat ad
    eiusmod exercitation `,
       list: [
-        "Lorem ipsum dolor sit amet, ",
         "Lorem ipsum dolor sit amet, ",
         "Lorem ipsum dolor sit amet, ",
         "Lorem ipsum dolor sit amet, ",
@@ -46,7 +44,6 @@ export default function SectionOne() {
    eiusmod exercitation `,
 
       list: [
-        "Lorem ipsum dolor sit amet, ",
         "Lorem ipsum dolor sit amet, ",
         "Lorem ipsum dolor sit amet, ",
         "Lorem ipsum dolor sit amet, ",

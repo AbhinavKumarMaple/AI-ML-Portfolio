@@ -51,13 +51,15 @@ export default function Faq({
             <img src={img} className=" w-full " />
           </div>
 
-          <div className="sm:flex flex-col gap-12 sm:w-5/12">
-            <h1 className="titlehvbt sm:text-[36px] max-w-[290px] sm:max-w-[600px] pb-2">
+          <div className="sm:flex flex-col gap-10 sm:w-5/12">
+            <h1 className="titlehvbt sm:text-[36px] max-w-[290px] sm:max-w-[600px] ">
               {fullTitle}
             </h1>{" "}
             <div>
-              <p className=" Dpara leading-normal pb-4">{para}</p>
-              <ul className="marker:text-yellow pl-4  Dpara list-disc space-y-4 list-inside">
+              <p className="font-futuraLt sm:text-[24px] text-[14px] leading-normal  pb-4">
+                {para}
+              </p>
+              <ul className="marker:text-yellow pl-4  Dpara list-disc space-y-4  list-inside">
                 {list.map((e, index) => (
                   <li key={index}>{e}</li>
                 ))}
